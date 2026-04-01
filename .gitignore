@@ -1,0 +1,40 @@
+# Python-spezifisch
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# Build-Artefakte (PyInstaller / Build-Skripte)
+build/
+dist/
+*.spec
+bin/
+include/
+lib/
+
+# Projektspezifische Ausgabeordner
+# (Hier landen die konvertierten Dateien der User)
+converted/
+temp_conversion/
+
+# Logs und Debug-Dateien
+*.log
+debug_run.log
+debug_run_utf8.log
+
+# Betriebssystem-spezifisch
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE-spezifisch
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Icons & Assets (Falls diese lokal bleiben sollen)
+# icon.ico
