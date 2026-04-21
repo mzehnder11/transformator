@@ -5,7 +5,7 @@ from tkinter import filedialog, messagebox
 import customtkinter as ctk
 from PIL import Image
 import pillow_avif  # Ensures AVIF support in Pillow
-import moviepy.editor as mp
+import moviepy as mp
 from fpdf import FPDF
 import uuid
 

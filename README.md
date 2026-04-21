@@ -27,6 +27,18 @@ Transformator Pro ist eine professionelle Desktop-Anwendung zur Konvertierung un
 
 Die Anwendung nutzt virtuelle Umgebungen, um Konflikte mit anderen Python-Installationen zu vermeiden.
 
+### Python
+
+1. Führe den folgenden Befehl aus um alle Abhängigkeiten zu installieren:
+```python
+pip install customtkinter Pillow pillow-avif-plugin moviepy fpdf2
+```
+
+2. Führe dann folgenden Befehl aus um die Applikation zu starten:
+```python
+python3 app.py
+```
+
 ### Windows
 1. Führen Sie die Datei setup.ps1 in der PowerShell aus.
 2. Das Skript installiert Python-Abhängigkeiten und versucht, FFmpeg via winget zu installieren, falls es fehlt.
